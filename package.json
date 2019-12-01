@@ -1,0 +1,23 @@
+{
+  "name": "interview-nth-digit",
+  "version": "1.0.0",
+  "description": "Find the n-th digit of integer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwanjunaid/interview-nth-digit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwanjunaid/interview-nth-digit/issues"
+  },
+  "homepage": "https://github.com/iwanjunaid/interview-nth-digit#readme",
+  "devDependencies": {
+    "jest": "24.9.0"
+  }
+}
