@@ -21,7 +21,7 @@ describe('nth digit of integer', () => {
     expect(nthDigit(11)).toEqual(0);
   });
 
-  test('Should be executed under 1ms', () => {
+  test('Should be executed under 1ms for finding 1000000000000th digit', () => {
     const start = process.hrtime();
 
     nthDigit(1000000000000);
