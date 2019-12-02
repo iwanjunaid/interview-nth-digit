@@ -11,7 +11,9 @@ module.exports = function (nth) {
     oldLimit = limit;
     limit = digitGroup * 9 * (Math.pow(10, digitGroup - 1));
 
-    if (nth <= limit) {
+    let highestPos = oldLimit + limit;
+
+    if (nth <= highestPos) {
       digitSubGroupPos = nth - oldLimit;
       digitSubGroupIndex = Math.ceil(digitSubGroupPos / digitGroup);
       value = (oldLimit) + (digitSubGroupIndex);
